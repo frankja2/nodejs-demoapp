@@ -2,7 +2,6 @@
 FROM node:20
 # Ustawiamy katalog roboczy
 WORKDIR /app
-
 # Kopiujemy package.json i package-lock.json
 COPY src/package*.json ./
 # Instalujemy zależności
