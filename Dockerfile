@@ -1,4 +1,3 @@
-
 # Wybieramy oficjalny obraz Node.js
 FROM node:20
 # Ustawiamy katalog roboczy
