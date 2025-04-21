@@ -15,6 +15,7 @@ COPY src/ .
 
 # Otwieramy port na którym aplikacja nasłuchuje (standardowo 3000)
 EXPOSE 3000
+
 # Komenda startowa
 CMD ["npm", "start"]
 
