@@ -19,4 +19,3 @@ EXPOSE 3000
 # Komenda startowa
 CMD ["npm", "start"]
 
-
