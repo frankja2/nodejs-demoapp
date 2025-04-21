@@ -1,5 +1,5 @@
 FROM node:20
-# Ustawiamy katalog roboczy
+# Ustawiamy katalog ro
 WORKDIR /app
 # Kopiujemy package.json i package-lock.json
 COPY src/package*.json ./
