@@ -4,7 +4,6 @@ FROM node:20
 WORKDIR /app
 # Kopiujemy package.json i package-lock.json
 COPY src/package*.json ./
-
 # Instalujemy zależności
 RUN npm install
 
