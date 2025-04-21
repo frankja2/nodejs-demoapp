@@ -1,4 +1,4 @@
-# Wybie
+# 
 FROM node:20
 # Ustawiamy katalog roboczy
 WORKDIR /app
