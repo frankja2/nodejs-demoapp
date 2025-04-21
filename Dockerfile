@@ -1,4 +1,4 @@
-# Wybieramy oficjalny obraz Node.js
+# Wybieramy oficjalny ob
 FROM node:20
 # Ustawiamy katalog roboczy
 WORKDIR /app
