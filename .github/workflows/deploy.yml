@@ -20,6 +20,8 @@ jobs:
         run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login registry.infra2code.com -u ${{ secrets.REGISTRY_USERNAME }} --password-stdin
 
       - name: Build and push
-        run: |
-          docker build -t registry.infra2code.com/test/app:latest .
-          docker push registry.infra2code.com/test/app:latest
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: registry.infra2code.com/test/app:latest
